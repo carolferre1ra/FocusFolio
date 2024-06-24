@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px; /* Tamanho base da fonte */
+  }
+  
+  body {
+    background: url('/GitHub/FocusFolio/imagens/download.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .navbar {
+    background-color: rgba(128, 128, 128, 0.8) !important; /* Cinza transparente */
+  }
+  
+  .navbar-brand img {
+    margin-right: 0.625rem; /* 10px em rem */
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff; /* Alterado para branco */
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ccc; /* Alterado para um tom mais claro quando hover */
+  }
+  
+  .custom-btn-outline {
+    border-color: #CDEFF5;
+    color: #CDEFF5;
+  }
+  
+  .custom-btn-outline:hover {
+    background-color: #CDEFF5;
+    color: #000;
+  }
+  
+  .custom-btn {
+    background-color: #CDEFF5;
+    color: #000;
+  }
+  
+  .custom-btn:hover {
+    background-color: #bcdfe0;
+    color: #000;
+  }
+  
+  .content {
+    height: calc(100% - 4.375rem); /* Altura total menos a navbar (70px em rem) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 1.25rem; /* 20px em rem */
+  }
+  
+  .content h1 {
+    font-size: 3rem; /* 48px em rem */
+    margin-bottom: 1.25rem; /* 20px em rem */
+  }
+  
+  .content p {
+    font-size: 1.5rem; /* 24px em rem */
+    margin-bottom: 1.875rem; /* 30px em rem */
+  }
+  
+  .custom-btn-start {
+    background-color: #CDEFF5;
+    color: #000;
+    font-size: 1.2rem; /* 20px em rem */
+    padding: 0.625rem 1.25rem; /* 10px 20px em rem */
+  }
+  
+  .custom-btn-start:hover {
+    background-color: #bcdfe0;
+    color: #000;
+  }
+  .footer {
+    background-color: #000;
+    padding: 1.25rem 0; /* Adiciona um espaçamento interno ao footer */
+  }
+  
+  .footer ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+  }
+  
+  .footer ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 1rem; /* Adiciona um espaçamento entre os itens da lista */
+  }
+  
+  .footer ul li a {
+    color: #fff; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove a decoração dos links */
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+  }
+  

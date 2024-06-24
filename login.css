@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("/GitHub/FocusFolio/imagens/nuvem.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form-container {
+  background-color: #cdeff5;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  max-width: 25rem;
+  width: 100%;
+}
+
+.input-group-text {
+  cursor: pointer;
+}
+
+.btn-custom-login {
+  background-color: #087990; 
+  color: white; 
+  border: none; 
+}
+
+.btn-custom-login:hover {
+  background-color: #022f38; 
+  color: white;
+}
+.form-container {
+  padding: 1.25rem; 
+  margin: 0.625rem; 
+  max-width: 25rem; 
+  width: 100%;
+}
+@media (max-width: 48rem) {
+  .bg {
+    background-size: auto; 
+  }
+
+  .form-container {
+    max-width: 100%; 
+  }
+}
