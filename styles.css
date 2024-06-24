@@ -1,28 +1,28 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-size: 16px; /* Tamanho base da fonte */
+    font-size: 16px; 
   }
   
   body {
-    background: url('/GitHub/FocusFolio/imagens/download.jpg') no-repeat center center fixed;
+    background: url('/imagens/download.jpg') no-repeat center center fixed;
     background-size: cover;
   }
   
   .navbar {
-    background-color: rgba(128, 128, 128, 0.8) !important; /* Cinza transparente */
+    background-color: rgba(128, 128, 128, 0.8) !important; 
   }
   
   .navbar-brand img {
-    margin-right: 0.625rem; /* 10px em rem */
+    margin-right: 0.625rem; 
   }
   
   .navbar-light .navbar-nav .nav-link {
-    color: #fff; /* Alterado para branco */
+    color: #fff; 
   }
   
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #ccc; /* Alterado para um tom mais claro quando hover */
+    color: #ccc; 
   }
   
   .custom-btn-outline {
@@ -79,25 +79,25 @@ html, body {
   }
   .footer {
     background-color: #000;
-    padding: 1.25rem 0; /* Adiciona um espaçamento interno ao footer */
+    padding: 1.25rem 0;
   }
   
   .footer ul {
-    list-style-type: none; /* Remove os marcadores de lista */
-    padding: 0; /* Remove o espaçamento interno da lista */
+    list-style-type: none; 
+    padding: 0; 
   }
   
   .footer ul li {
-    display: inline; /* Exibe os itens da lista em linha */
-    margin-right: 1rem; /* Adiciona um espaçamento entre os itens da lista */
+    display: inline; 
+    margin-right: 1rem; 
   }
   
   .footer ul li a {
-    color: #fff; /* Define a cor do texto dos links como branco */
-    text-decoration: none; /* Remove a decoração dos links */
+    color: #fff; 
+    text-decoration: none; 
   }
   
   .footer ul li a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+    text-decoration: underline; 
   }
   

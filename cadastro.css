@@ -4,7 +4,7 @@ html, body {
 }
 
 .bg {
-    background-image: url('/GitHub/FocusFolio/imagens/nuvem.jpg'); 
+    background-image: url('/imagens/nuvem.jpg'); 
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
