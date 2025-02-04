@@ -1,9 +1,85 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="24.8.8">
   <diagram name="Página-1" id="9037m2rGhw_wbS3S42Us">
-    <mxGraphModel>
+    <mxGraphModel dx="1368" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="02kLaqvdsba4OASW_WjX-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="66.41" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-2" value="Estação cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43.19999999999999" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-3" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;" vertex="1" parent="1">
+          <mxGeometry x="316" y="256" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-4" value="DNS (docagenda.com.br)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="300" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-6" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.servers_stacked" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-7" value="docagenda_web_1" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-8" value="" style="triangle;html=1;whiteSpace=wrap;" vertex="1" parent="02kLaqvdsba4OASW_WjX-7">
+          <mxGeometry x="20" y="20" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="02kLaqvdsba4OASW_WjX-3" target="02kLaqvdsba4OASW_WjX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-11" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
+          <mxGeometry x="541.25" y="380" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-12" value="docagenda_db_1" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-13" value="" style="triangle;html=1;whiteSpace=wrap;" vertex="1" parent="02kLaqvdsba4OASW_WjX-12">
+          <mxGeometry x="20" y="20" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="02kLaqvdsba4OASW_WjX-6" target="02kLaqvdsba4OASW_WjX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="02kLaqvdsba4OASW_WjX-12" target="02kLaqvdsba4OASW_WjX-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="02kLaqvdsba4OASW_WjX-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-16" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.servers_stacked" vertex="1" parent="1">
+          <mxGeometry x="325" y="470" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.95;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="02kLaqvdsba4OASW_WjX-7" target="02kLaqvdsba4OASW_WjX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-18" value="maquina virtual (docagenda)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="02kLaqvdsba4OASW_WjX-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-19" value="maquina virtual (docdb)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="960" y="259" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="02kLaqvdsba4OASW_WjX-24" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="960" y="380" width="50" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
